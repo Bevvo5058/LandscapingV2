@@ -1,0 +1,67 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  font-family: "Oswald", sans-serif;
+}
+
+h2 {
+  color: #000000;
+}
+
+header h2 {
+  color: #000000;
+}
+
+footer {
+  background-color: #484848;
+  padding: 50px 0;
+}
+
+.banner {
+  width: 100%;
+  height: 60vh;
+  background-image: url(Images/lawncare-banner.webp);
+  background-size: cover;
+  background-position: 69%;
+  background-attachment: fixed;
+}
+.inner-banner {
+  text-align: center;
+  position: absolute;
+  width: 100%;
+  height: auto;
+  margin-top: 80px;
+}
+
+.banner-text {
+  color: #ffffff;
+  opacity: 1;
+}
+
+.navbar {
+  background-color: #064e24;
+  height: 100%;
+  width: 100%;
+}
+
+.section-title {
+  display: grid;
+  place-items: center;
+  align-content: center;
+  min-height: 20vh;
+}
+
+.subsection-title {
+  padding: 15px 0;
+  display: grid;
+  place-items: center;
+}
