@@ -37,11 +37,11 @@
           <li class="nav-item">
             <a class="nav-link" href="#about">About Us</a>
           </li>
-          <li>
-            <a class="nav-link" href="#services">Services</a>
-          </li>
           <li class="nav-item">
             <a class="nav-link" href="#gallery">Gallery</a>
+          </li>
+          <li>
+            <a class="nav-link" href="#services">Services</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="#contact">Contact Us</a>
@@ -52,7 +52,9 @@
     <!-- banner -->
     <div id="home" class="banner">
       <div class="inner-banner">
-        <h1 class="display-3 banner-text">Houston's Best landscaping company</h1>
+        <h1 class="display-3 banner-text">
+          Houston's Best landscaping company
+        </h1>
         <h2 class="banner-text">See why we are number One</h2>
         <a href="#contact" class="banner-text btn">Get a quote today</a>
       </div>
@@ -82,15 +84,49 @@
             Turpis massa sed elementum tempus egestas sed sed. Ullamcorper
             dignissim cras tincidunt lobortis. Aliquam ultrices sagittis orci a
             scelerisque.
-        </p>
+          </p>
+        </div>
+      </div>
     </div>
-</div>
-</div>
-<!-- Gallery part-->
-<div id="gallery" class="container">
-  <h2 class="display-4 section-title">Our Gallery</h2>
-  <div class="row"></div>
-</div>
+    <!-- Gallery part-->
+    <div id="gallery" class="container">
+      <h2 class="display-4 section-title">Our Gallery</h2>
+      <div class="section-content">
+        <div class="row">
+            <img
+              src="CSS/Images/Landscape.jpeg"
+              class="img-thumbnail"
+              alt="landscaping image 1"
+            />
+            <img
+              src="CSS/Images/Landscape2.jpeg"
+              class="img-thumbnail"
+              alt="landscaping image 2"
+            />
+            <img
+              src="CSS/Images/Landscape3.jpeg"
+              class="img-thumbnail"
+              alt="landscaping image 3"
+            />
+            <img
+              src="CSS/Images/Landscape4.jpeg"
+              class="img-thumbnail"
+              alt="landscaping image 4"
+            />
+            <img
+              src="CSS/Images/Landscape5.jpeg"
+              class="img-thumbnail"
+              alt="landscaping image 5"
+            />
+            <img
+              src="CSS/Images/Landscape6.jpeg"
+              class="img-thumbnail"
+              alt="landscaping image 6"
+            />
+          </div>
+        </div>
+      </div>
+    </div>
     <!-- Services Part -->
     <div id="services" class="container">
       <h2 class="display-4 section-title">Our Services</h2>
@@ -138,11 +174,78 @@
         </div>
       </div>
     </div>
-    
+
     <!-- Contact starts here -->
     <div id="contact" class="container">
       <h2 class="display-4 section-title">Contact us</h2>
-      <div class="row"></div>
+      <div class="row">
+        <div class="col-sm">
+          <form action="">
+            <div class="form-group">
+              <input
+                type="name"
+                class="form-control"
+                id="name"
+                placeholder="name"
+              />
+            </div>
+            <div class="form-group">
+              <input
+                type="email"
+                class="form-control"
+                id="email"
+                placeholder="email"
+              />
+            </div>
+            <div class="form-group">
+              <input
+                type="phone"
+                class="form-control"
+                id="phone"
+                placeholder="phone"
+              />
+            </div>
+            <div class="form-group">
+              <input
+                type="address"
+                class="form-control"
+                id="address"
+                placeholder="Address(City, State, Zip Code)"
+              />
+            </div>
+            <button id="open">Send</button>
+          </form>
+        </div>
+        <div class="col-sm">
+          <h3>Get in touch!</h3>
+          <p class="lead">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua.
+          </p>
+
+          <h3>Al's Landscaping</h3>
+          <p class="lead">
+            Feugiat pretium nibh. Amet cursus sit amet dictum sit amet justo.
+            Sit amet nisl suscipit adipiscing bibendum. Commodo elit at
+            imperdiet dui accumsan sit. Cursus turpis massa tincidunt dui.
+          </p>
+          <h3>Hours</h3>
+          <p class="lead">
+            Monday-Friday: 9am-6pm <br />
+            Saturday: By Appointments <br />
+            Sunday: By Appointments
+          </p>
+        </div>
+      </div>
     </div>
   </body>
 </html>
+
+<!--      <div class="modal-container" id="modal-container">
+            <h1>Your contact information was submitted</h1>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua.
+              Blandit aliquam etiam erat velit scelerisque in dictum non.
+            </p>
+            <button id="close">Close</button> -->

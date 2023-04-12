@@ -57,7 +57,7 @@ footer {
   display: grid;
   place-items: center;
   align-content: center;
-  min-height: 20vh;
+  min-height: 30vh;
 }
 
 .subsection-title {
@@ -65,3 +65,29 @@ footer {
   display: grid;
   place-items: center;
 }
+
+.section-content {
+  display: grid;
+  align-content: center;
+  align-items: center;
+  margin-left: 10%;
+}
+.img-thumbnail {
+  height: 300px;
+  width: 300px;
+  object-fit: cover;
+}
+
+button {
+  color: #ffffff;
+  background-color: #064e24;
+  border: 0;
+  border-radius: 6px;
+  padding: 10px 25px;
+}
+.form-group {
+  padding: 10px;
+}
+/* .modal-container{
+    
+} */
